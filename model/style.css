@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;
+    color: #555050;
+    font-size: 20px;
+    height: 100%;
+}
+
+h1 {
+    font-size: 53px;
+    text-shadow: 4px 4px 2px #4197A9;
+}
+
+/* Formulario */
+.formulario{
+    background-color: lightblue;  
+    margin: 0 auto;
+    padding: 2rem;   
+}
+
+.form1 {
+    padding-top: 2rem;
+    width: 40%;
+}
+
+#form2, #form3, #check, #boton, #cargando { /* Se debe ocultar inicialmente las secciones que despues se mostraran con el select */
+    display: none;
+}
+
+#empleos {
+    padding: 1rem;
+    min-height: 28rem;
+}
+
+.card {
+    margin-top: 1rem;
+}
+
+#cargando {
+    font-size: 4rem;
+}
+
+.Form1__tipo-busqueda, .input__form2, .input__form3 {
+    border-radius: .3rem;
+}
+
+.form2{
+    padding-top: 1rem;
+}
+
+#btn-buscar-empleo {
+    padding-top: 1rem;
+}
+
+.form__button {
+    margin-top: 1rem;
+}
+
+/*card*/
+.imagen-empresa{
+    width: 70%;
+    height: auto;
+    display: block;
+    margin: auto;    
+}
+
+/*Footer*/
+ .footer{
+    height: 9rem;
+    padding-top: 1.5rem;
+    right: 0;
+    bottom: 0;
+    left: 0;
+ }
+
+ .footer__i{
+     font-size: 2rem;     
+ }
+
+ .container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: none;
+ }
+
+ @media (min-width: 320px) {
+    h1 {
+        font-size: 46px;
+    }
+
+    .form-group{
+        width: 15rem;
+        margin-left: -5rem;
+    }
+    
+    .form-check{
+        margin-left: -5rem;
+        font-size: 18px;
+        width: 13rem;
+    }
+
+    .footer {
+        padding-top: 0.5rem;
+    }
+ } 
+
+ @media (min-width: 488px){
+    .form-group{
+        width: 100%;
+        margin-left: 0;
+        
+    }
+
+    .form1 {
+        width: 80%;
+    }
+ }
